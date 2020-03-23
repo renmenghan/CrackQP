@@ -1,37 +1,20 @@
 # CrackQp
 
 #### 介绍
-破解趣拍
-
-#### 软件架构
-软件架构说明
+破解趣拍 很久之前的代码 已经不用了 sdk也都已经过时了 qp也被收购了  单独拿出来这个组件（仅代码不能运行）进行分享学习（仅供学习） 持续更新
 
 
-#### 安装教程
+#### 首先肯定是要根据项目的一些调试  猜测  然后可以通过runtime拿到方法属性配合 Hopper Disassembler进行分析
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+##分辨率破解
+我在QPConfig文件里看到了videosize相关方法
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0323/221421_cffa3df2_1648075.png "qp1.png")
 
-#### 使用说明
+然后对videosize进行方法交换
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0323/221635_3ffdd824_1648075.png "qp2.png")
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+后来导入video视频发现也有size相关方法 所以也进行了相关方法的hook
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0323/222050_21c500d5_1648075.png "屏幕截图.png")
 
 
-#### 码云特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
