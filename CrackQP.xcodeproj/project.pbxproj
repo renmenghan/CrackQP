@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E18641832428C1B90033B206 /* QPMediaRender+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641452428C1B90033B206 /* QPMediaRender+Swizzling.m */; };
+		E18641842428C1BA0033B206 /* QPSave+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E186414A2428C1B90033B206 /* QPSave+Swizzling.m */; };
+		E18641852428C1BA0033B206 /* QPRecordViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E186414C2428C1B90033B206 /* QPRecordViewController+Swizzling.m */; };
+		E18641862428C1BA0033B206 /* QPGPUImageFiveInputFilter+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E186414F2428C1B90033B206 /* QPGPUImageFiveInputFilter+Swizzling.m */; };
+		E18641872428C1BA0033B206 /* QPCutViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641512428C1B90033B206 /* QPCutViewController+Swizzling.m */; };
+		E18641882428C1BA0033B206 /* QPCutVideo+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641532428C1B90033B206 /* QPCutVideo+Swizzling.m */; };
+		E18641892428C1BA0033B206 /* QPVideo+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641552428C1B90033B206 /* QPVideo+Swizzling.m */; };
+		E186418A2428C1BA0033B206 /* QPAuth+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641572428C1B90033B206 /* QPAuth+Swizzling.m */; };
+		E186418B2428C1BA0033B206 /* QPPickerPreviewViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E186415B2428C1B90033B206 /* QPPickerPreviewViewController+Swizzling.m */; };
+		E186418C2428C1BA0033B206 /* QPSDKConfig+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641602428C1B90033B206 /* QPSDKConfig+Swizzling.m */; };
+		E186418D2428C1BA0033B206 /* QPCutView+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641652428C1B90033B206 /* QPCutView+Swizzling.m */; };
+		E186418E2428C1BA0033B206 /* QPGuideFactory+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641692428C1B90033B206 /* QPGuideFactory+Swizzling.m */; };
+		E186418F2428C1BA0033B206 /* ALAssetsLibrary+ZHExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = E186416B2428C1B90033B206 /* ALAssetsLibrary+ZHExpand.m */; };
+		E18641902428C1BA0033B206 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E186416E2428C1B90033B206 /* RecordViewController.m */; };
+		E18641912428C1BA0033B206 /* QPSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641722428C1B90033B206 /* QPSDKManager.m */; };
+		E18641922428C1BA0033B206 /* ZHBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641732428C1B90033B206 /* ZHBlock.m */; };
+		E18641932428C1BA0033B206 /* VideoUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641742428C1B90033B206 /* VideoUploadManager.m */; };
+		E18641942428C1BA0033B206 /* UploadTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641792428C1B90033B206 /* UploadTaskModel.m */; };
+		E18641952428C1BA0033B206 /* RecordConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E186417A2428C1B90033B206 /* RecordConfigModel.m */; };
+		E18641962428C1BA0033B206 /* VisibilityInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E186417B2428C1B90033B206 /* VisibilityInfoModel.m */; };
+		E18641972428C1BA0033B206 /* RecordConfigResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E186417D2428C1B90033B206 /* RecordConfigResultModel.m */; };
+		E18641982428C1BA0033B206 /* RecordRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E18641812428C1B90033B206 /* RecordRequest.m */; };
+		E1E1B6F9242854D500F8A451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1B6F8242854D500F8A451 /* AppDelegate.m */; };
+		E1E1B6FC242854D500F8A451 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1B6FB242854D500F8A451 /* SceneDelegate.m */; };
+		E1E1B6FF242854D500F8A451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1B6FE242854D500F8A451 /* ViewController.m */; };
+		E1E1B702242854D500F8A451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E1B700242854D500F8A451 /* Main.storyboard */; };
+		E1E1B704242854DE00F8A451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E1B703242854DE00F8A451 /* Assets.xcassets */; };
+		E1E1B707242854DE00F8A451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E1B705242854DE00F8A451 /* LaunchScreen.storyboard */; };
+		E1E1B70A242854DE00F8A451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1B709242854DE00F8A451 /* main.m */; };
+		E1E1B7132428554500F8A451 /* QPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E1B7112428554500F8A451 /* QPSDK.framework */; };
+		E1E1B7142428554500F8A451 /* QPSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1E1B7122428554500F8A451 /* QPSDK.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E18641442428C1B90033B206 /* QPGuideFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPGuideFactory.h; sourceTree = "<group>"; };
+		E18641452428C1B90033B206 /* QPMediaRender+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPMediaRender+Swizzling.m"; sourceTree = "<group>"; };
+		E18641462428C1B90033B206 /* QPCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPCutView.h; sourceTree = "<group>"; };
+		E18641472428C1B90033B206 /* QPEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPEventManager.h; sourceTree = "<group>"; };
+		E18641482428C1B90033B206 /* QPPickerPreviewViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPPickerPreviewViewController+Swizzling.h"; sourceTree = "<group>"; };
+		E18641492428C1B90033B206 /* QPCutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPCutViewController.h; sourceTree = "<group>"; };
+		E186414A2428C1B90033B206 /* QPSave+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPSave+Swizzling.m"; sourceTree = "<group>"; };
+		E186414B2428C1B90033B206 /* QPSDKConfig+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPSDKConfig+Swizzling.h"; sourceTree = "<group>"; };
+		E186414C2428C1B90033B206 /* QPRecordViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPRecordViewController+Swizzling.m"; sourceTree = "<group>"; };
+		E186414D2428C1B90033B206 /* QPCutView+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPCutView+Swizzling.h"; sourceTree = "<group>"; };
+		E186414E2428C1B90033B206 /* QPGPUImageFiveInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPGPUImageFiveInputFilter.h; sourceTree = "<group>"; };
+		E186414F2428C1B90033B206 /* QPGPUImageFiveInputFilter+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPGPUImageFiveInputFilter+Swizzling.m"; sourceTree = "<group>"; };
+		E18641502428C1B90033B206 /* ALAssetsLibrary+ZHExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+ZHExpand.h"; sourceTree = "<group>"; };
+		E18641512428C1B90033B206 /* QPCutViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPCutViewController+Swizzling.m"; sourceTree = "<group>"; };
+		E18641522428C1B90033B206 /* QPRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPRecordViewController.h; sourceTree = "<group>"; };
+		E18641532428C1B90033B206 /* QPCutVideo+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPCutVideo+Swizzling.m"; sourceTree = "<group>"; };
+		E18641542428C1B90033B206 /* QPGuideFactory+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPGuideFactory+Swizzling.h"; sourceTree = "<group>"; };
+		E18641552428C1B90033B206 /* QPVideo+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPVideo+Swizzling.m"; sourceTree = "<group>"; };
+		E18641562428C1B90033B206 /* QPAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPAuth.h; sourceTree = "<group>"; };
+		E18641572428C1B90033B206 /* QPAuth+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPAuth+Swizzling.m"; sourceTree = "<group>"; };
+		E18641582428C1B90033B206 /* QPSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPSDKConfig.h; sourceTree = "<group>"; };
+		E18641592428C1B90033B206 /* QPMediaRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPMediaRender.h; sourceTree = "<group>"; };
+		E186415A2428C1B90033B206 /* QPSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPSave.h; sourceTree = "<group>"; };
+		E186415B2428C1B90033B206 /* QPPickerPreviewViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPPickerPreviewViewController+Swizzling.m"; sourceTree = "<group>"; };
+		E186415C2428C1B90033B206 /* QPVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPVideo.h; sourceTree = "<group>"; };
+		E186415D2428C1B90033B206 /* QPMediaRender+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPMediaRender+Swizzling.h"; sourceTree = "<group>"; };
+		E186415E2428C1B90033B206 /* QPCutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPCutInfo.h; sourceTree = "<group>"; };
+		E186415F2428C1B90033B206 /* QPRecordViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPRecordViewController+Swizzling.h"; sourceTree = "<group>"; };
+		E18641602428C1B90033B206 /* QPSDKConfig+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPSDKConfig+Swizzling.m"; sourceTree = "<group>"; };
+		E18641612428C1B90033B206 /* QPSave+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPSave+Swizzling.h"; sourceTree = "<group>"; };
+		E18641622428C1B90033B206 /* QPGPUImageFiveInputFilter+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPGPUImageFiveInputFilter+Swizzling.h"; sourceTree = "<group>"; };
+		E18641632428C1B90033B206 /* QPCutVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPCutVideo.h; sourceTree = "<group>"; };
+		E18641642428C1B90033B206 /* QPPickerPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPPickerPreviewViewController.h; sourceTree = "<group>"; };
+		E18641652428C1B90033B206 /* QPCutView+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPCutView+Swizzling.m"; sourceTree = "<group>"; };
+		E18641662428C1B90033B206 /* QupaiSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QupaiSDK.h; sourceTree = "<group>"; };
+		E18641672428C1B90033B206 /* QPAuth+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPAuth+Swizzling.h"; sourceTree = "<group>"; };
+		E18641682428C1B90033B206 /* QPVideo+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPVideo+Swizzling.h"; sourceTree = "<group>"; };
+		E18641692428C1B90033B206 /* QPGuideFactory+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QPGuideFactory+Swizzling.m"; sourceTree = "<group>"; };
+		E186416A2428C1B90033B206 /* QPCutVideo+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPCutVideo+Swizzling.h"; sourceTree = "<group>"; };
+		E186416B2428C1B90033B206 /* ALAssetsLibrary+ZHExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+ZHExpand.m"; sourceTree = "<group>"; };
+		E186416C2428C1B90033B206 /* QPCutViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QPCutViewController+Swizzling.h"; sourceTree = "<group>"; };
+		E186416E2428C1B90033B206 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		E186416F2428C1B90033B206 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		E18641712428C1B90033B206 /* VideoUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoUploadManager.h; sourceTree = "<group>"; };
+		E18641722428C1B90033B206 /* QPSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPSDKManager.m; sourceTree = "<group>"; };
+		E18641732428C1B90033B206 /* ZHBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBlock.m; sourceTree = "<group>"; };
+		E18641742428C1B90033B206 /* VideoUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoUploadManager.m; sourceTree = "<group>"; };
+		E18641752428C1B90033B206 /* QPSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPSDKManager.h; sourceTree = "<group>"; };
+		E18641762428C1B90033B206 /* ZHBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBlock.h; sourceTree = "<group>"; };
+		E18641782428C1B90033B206 /* RecordConfigResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordConfigResultModel.h; sourceTree = "<group>"; };
+		E18641792428C1B90033B206 /* UploadTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadTaskModel.m; sourceTree = "<group>"; };
+		E186417A2428C1B90033B206 /* RecordConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordConfigModel.m; sourceTree = "<group>"; };
+		E186417B2428C1B90033B206 /* VisibilityInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisibilityInfoModel.m; sourceTree = "<group>"; };
+		E186417C2428C1B90033B206 /* UploadTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadTaskModel.h; sourceTree = "<group>"; };
+		E186417D2428C1B90033B206 /* RecordConfigResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordConfigResultModel.m; sourceTree = "<group>"; };
+		E186417E2428C1B90033B206 /* VisibilityInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibilityInfoModel.h; sourceTree = "<group>"; };
+		E186417F2428C1B90033B206 /* RecordConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordConfigModel.h; sourceTree = "<group>"; };
+		E18641812428C1B90033B206 /* RecordRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordRequest.m; sourceTree = "<group>"; };
+		E18641822428C1B90033B206 /* RecordRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordRequest.h; sourceTree = "<group>"; };
+		E1E1B6F4242854D500F8A451 /* CrackQP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackQP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E1B6F7242854D500F8A451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1E1B6F8242854D500F8A451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1E1B6FA242854D500F8A451 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E1E1B6FB242854D500F8A451 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E1E1B6FD242854D500F8A451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1E1B6FE242854D500F8A451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1E1B701242854D500F8A451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E1B703242854DE00F8A451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E1B706242854DE00F8A451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E1B708242854DE00F8A451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E1B709242854DE00F8A451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1E1B7112428554500F8A451 /* QPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPSDK.framework; sourceTree = "<group>"; };
+		E1E1B7122428554500F8A451 /* QPSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QPSDK.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E1B6F1242854D500F8A451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1B7132428554500F8A451 /* QPSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E18641422428C1B90033B206 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				E18641432428C1B90033B206 /* Category */,
+				E186416D2428C1B90033B206 /* Controller */,
+				E18641702428C1B90033B206 /* Object */,
+				E18641772428C1B90033B206 /* Model */,
+				E18641802428C1B90033B206 /* Request */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		E18641432428C1B90033B206 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E18641502428C1B90033B206 /* ALAssetsLibrary+ZHExpand.h */,
+				E186416B2428C1B90033B206 /* ALAssetsLibrary+ZHExpand.m */,
+				E18641562428C1B90033B206 /* QPAuth.h */,
+				E18641672428C1B90033B206 /* QPAuth+Swizzling.h */,
+				E18641572428C1B90033B206 /* QPAuth+Swizzling.m */,
+				E186415E2428C1B90033B206 /* QPCutInfo.h */,
+				E18641632428C1B90033B206 /* QPCutVideo.h */,
+				E186416A2428C1B90033B206 /* QPCutVideo+Swizzling.h */,
+				E18641532428C1B90033B206 /* QPCutVideo+Swizzling.m */,
+				E18641462428C1B90033B206 /* QPCutView.h */,
+				E186414D2428C1B90033B206 /* QPCutView+Swizzling.h */,
+				E18641652428C1B90033B206 /* QPCutView+Swizzling.m */,
+				E18641492428C1B90033B206 /* QPCutViewController.h */,
+				E186416C2428C1B90033B206 /* QPCutViewController+Swizzling.h */,
+				E18641512428C1B90033B206 /* QPCutViewController+Swizzling.m */,
+				E18641472428C1B90033B206 /* QPEventManager.h */,
+				E186414E2428C1B90033B206 /* QPGPUImageFiveInputFilter.h */,
+				E18641622428C1B90033B206 /* QPGPUImageFiveInputFilter+Swizzling.h */,
+				E186414F2428C1B90033B206 /* QPGPUImageFiveInputFilter+Swizzling.m */,
+				E18641442428C1B90033B206 /* QPGuideFactory.h */,
+				E18641542428C1B90033B206 /* QPGuideFactory+Swizzling.h */,
+				E18641692428C1B90033B206 /* QPGuideFactory+Swizzling.m */,
+				E18641592428C1B90033B206 /* QPMediaRender.h */,
+				E186415D2428C1B90033B206 /* QPMediaRender+Swizzling.h */,
+				E18641452428C1B90033B206 /* QPMediaRender+Swizzling.m */,
+				E18641642428C1B90033B206 /* QPPickerPreviewViewController.h */,
+				E18641482428C1B90033B206 /* QPPickerPreviewViewController+Swizzling.h */,
+				E186415B2428C1B90033B206 /* QPPickerPreviewViewController+Swizzling.m */,
+				E18641522428C1B90033B206 /* QPRecordViewController.h */,
+				E186415F2428C1B90033B206 /* QPRecordViewController+Swizzling.h */,
+				E186414C2428C1B90033B206 /* QPRecordViewController+Swizzling.m */,
+				E186415A2428C1B90033B206 /* QPSave.h */,
+				E18641612428C1B90033B206 /* QPSave+Swizzling.h */,
+				E186414A2428C1B90033B206 /* QPSave+Swizzling.m */,
+				E18641582428C1B90033B206 /* QPSDKConfig.h */,
+				E186414B2428C1B90033B206 /* QPSDKConfig+Swizzling.h */,
+				E18641602428C1B90033B206 /* QPSDKConfig+Swizzling.m */,
+				E186415C2428C1B90033B206 /* QPVideo.h */,
+				E18641682428C1B90033B206 /* QPVideo+Swizzling.h */,
+				E18641552428C1B90033B206 /* QPVideo+Swizzling.m */,
+				E18641662428C1B90033B206 /* QupaiSDK.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E186416D2428C1B90033B206 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E186416E2428C1B90033B206 /* RecordViewController.m */,
+				E186416F2428C1B90033B206 /* RecordViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E18641702428C1B90033B206 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				E18641712428C1B90033B206 /* VideoUploadManager.h */,
+				E18641722428C1B90033B206 /* QPSDKManager.m */,
+				E18641732428C1B90033B206 /* ZHBlock.m */,
+				E18641742428C1B90033B206 /* VideoUploadManager.m */,
+				E18641752428C1B90033B206 /* QPSDKManager.h */,
+				E18641762428C1B90033B206 /* ZHBlock.h */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		E18641772428C1B90033B206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E18641782428C1B90033B206 /* RecordConfigResultModel.h */,
+				E18641792428C1B90033B206 /* UploadTaskModel.m */,
+				E186417A2428C1B90033B206 /* RecordConfigModel.m */,
+				E186417B2428C1B90033B206 /* VisibilityInfoModel.m */,
+				E186417C2428C1B90033B206 /* UploadTaskModel.h */,
+				E186417D2428C1B90033B206 /* RecordConfigResultModel.m */,
+				E186417E2428C1B90033B206 /* VisibilityInfoModel.h */,
+				E186417F2428C1B90033B206 /* RecordConfigModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E18641802428C1B90033B206 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E18641812428C1B90033B206 /* RecordRequest.m */,
+				E18641822428C1B90033B206 /* RecordRequest.h */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E1E1B6EB242854D500F8A451 = {
+			isa = PBXGroup;
+			children = (
+				E1E1B6F6242854D500F8A451 /* CrackQP */,
+				E1E1B6F5242854D500F8A451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E1B6F5242854D500F8A451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1B6F4242854D500F8A451 /* CrackQP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E1B6F6242854D500F8A451 /* CrackQP */ = {
+			isa = PBXGroup;
+			children = (
+				E18641422428C1B90033B206 /* Record */,
+				E1E1B7102428554500F8A451 /* QPSDK */,
+				E1E1B6F7242854D500F8A451 /* AppDelegate.h */,
+				E1E1B6F8242854D500F8A451 /* AppDelegate.m */,
+				E1E1B6FA242854D500F8A451 /* SceneDelegate.h */,
+				E1E1B6FB242854D500F8A451 /* SceneDelegate.m */,
+				E1E1B6FD242854D500F8A451 /* ViewController.h */,
+				E1E1B6FE242854D500F8A451 /* ViewController.m */,
+				E1E1B700242854D500F8A451 /* Main.storyboard */,
+				E1E1B703242854DE00F8A451 /* Assets.xcassets */,
+				E1E1B705242854DE00F8A451 /* LaunchScreen.storyboard */,
+				E1E1B708242854DE00F8A451 /* Info.plist */,
+				E1E1B709242854DE00F8A451 /* main.m */,
+			);
+			path = CrackQP;
+			sourceTree = "<group>";
+		};
+		E1E1B7102428554500F8A451 /* QPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1B7112428554500F8A451 /* QPSDK.framework */,
+				E1E1B7122428554500F8A451 /* QPSDK.bundle */,
+			);
+			path = QPSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E1B6F3242854D500F8A451 /* CrackQP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E1B70D242854DE00F8A451 /* Build configuration list for PBXNativeTarget "CrackQP" */;
+			buildPhases = (
+				E1E1B6F0242854D500F8A451 /* Sources */,
+				E1E1B6F1242854D500F8A451 /* Frameworks */,
+				E1E1B6F2242854D500F8A451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackQP;
+			productName = CrackQP;
+			productReference = E1E1B6F4242854D500F8A451 /* CrackQP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E1B6EC242854D500F8A451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "任梦晗";
+				TargetAttributes = {
+					E1E1B6F3242854D500F8A451 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E1E1B6EF242854D500F8A451 /* Build configuration list for PBXProject "CrackQP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E1B6EB242854D500F8A451;
+			productRefGroup = E1E1B6F5242854D500F8A451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E1B6F3242854D500F8A451 /* CrackQP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E1B6F2242854D500F8A451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1B707242854DE00F8A451 /* LaunchScreen.storyboard in Resources */,
+				E1E1B704242854DE00F8A451 /* Assets.xcassets in Resources */,
+				E1E1B702242854D500F8A451 /* Main.storyboard in Resources */,
+				E1E1B7142428554500F8A451 /* QPSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E1B6F0242854D500F8A451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18641982428C1BA0033B206 /* RecordRequest.m in Sources */,
+				E186418A2428C1BA0033B206 /* QPAuth+Swizzling.m in Sources */,
+				E18641892428C1BA0033B206 /* QPVideo+Swizzling.m in Sources */,
+				E186418F2428C1BA0033B206 /* ALAssetsLibrary+ZHExpand.m in Sources */,
+				E18641832428C1B90033B206 /* QPMediaRender+Swizzling.m in Sources */,
+				E18641932428C1BA0033B206 /* VideoUploadManager.m in Sources */,
+				E18641972428C1BA0033B206 /* RecordConfigResultModel.m in Sources */,
+				E18641942428C1BA0033B206 /* UploadTaskModel.m in Sources */,
+				E18641872428C1BA0033B206 /* QPCutViewController+Swizzling.m in Sources */,
+				E1E1B6FF242854D500F8A451 /* ViewController.m in Sources */,
+				E186418D2428C1BA0033B206 /* QPCutView+Swizzling.m in Sources */,
+				E18641882428C1BA0033B206 /* QPCutVideo+Swizzling.m in Sources */,
+				E18641912428C1BA0033B206 /* QPSDKManager.m in Sources */,
+				E18641922428C1BA0033B206 /* ZHBlock.m in Sources */,
+				E1E1B6F9242854D500F8A451 /* AppDelegate.m in Sources */,
+				E18641962428C1BA0033B206 /* VisibilityInfoModel.m in Sources */,
+				E18641952428C1BA0033B206 /* RecordConfigModel.m in Sources */,
+				E186418E2428C1BA0033B206 /* QPGuideFactory+Swizzling.m in Sources */,
+				E18641842428C1BA0033B206 /* QPSave+Swizzling.m in Sources */,
+				E18641862428C1BA0033B206 /* QPGPUImageFiveInputFilter+Swizzling.m in Sources */,
+				E18641852428C1BA0033B206 /* QPRecordViewController+Swizzling.m in Sources */,
+				E1E1B70A242854DE00F8A451 /* main.m in Sources */,
+				E186418B2428C1BA0033B206 /* QPPickerPreviewViewController+Swizzling.m in Sources */,
+				E18641902428C1BA0033B206 /* RecordViewController.m in Sources */,
+				E1E1B6FC242854D500F8A451 /* SceneDelegate.m in Sources */,
+				E186418C2428C1BA0033B206 /* QPSDKConfig+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1E1B700242854D500F8A451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E1B701242854D500F8A451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E1B705242854DE00F8A451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E1B706242854DE00F8A451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E1B70B242854DE00F8A451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1E1B70C242854DE00F8A451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E1B70E242854DE00F8A451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrackQP/QPSDK",
+				);
+				INFOPLIST_FILE = CrackQP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.CrackQP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E1B70F242854DE00F8A451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrackQP/QPSDK",
+				);
+				INFOPLIST_FILE = CrackQP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.CrackQP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E1B6EF242854D500F8A451 /* Build configuration list for PBXProject "CrackQP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E1B70B242854DE00F8A451 /* Debug */,
+				E1E1B70C242854DE00F8A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E1B70D242854DE00F8A451 /* Build configuration list for PBXNativeTarget "CrackQP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E1B70E242854DE00F8A451 /* Debug */,
+				E1E1B70F242854DE00F8A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E1B6EC242854D500F8A451 /* Project object */;
+}
